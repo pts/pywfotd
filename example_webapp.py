@@ -15,7 +15,7 @@ def _(a=None, b=None):
     a = int(a)
     b = int(b)
   if a >= b:
-    return ('The number you have thinked of is %d.<br>\n'
+    return ('The number you have thought of is %d.<br>\n'
             '<a href="/">Play again</a>' % a)
   m = (a + b + 1) >> 1
   return ('%sIs it less than %d? '
